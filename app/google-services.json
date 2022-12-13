@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1065146140494",
+    "project_id": "backlog-games",
+    "storage_bucket": "backlog-games.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065146140494:android:377979bc3fd181e86ec01f",
+        "android_client_info": {
+          "package_name": "com.example.backloggames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065146140494-1n29ca0h0b9p7bf25oe2a9fueqhebiob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.backloggames",
+            "certificate_hash": "bf3d4d333ec8bbbe189fd63b84c1465907f4c7a9"
+          }
+        },
+        {
+          "client_id": "1065146140494-e5ta6gdh70hecmt8j8787lq67os4tt3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASLgtudlCKZx0cyiIj_H-iWZ8S4qEyBa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065146140494-e5ta6gdh70hecmt8j8787lq67os4tt3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

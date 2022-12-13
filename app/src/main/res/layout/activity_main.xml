@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="30dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/console" />
+
+        <TextView
+            android:id="@+id/txtLoginTela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/background_tittle"
+            android:padding="15dp"
+            android:text="@string/txt_tela_login"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/background_edit_text"
+            android:padding="15dp"
+            android:text="@string/txt_usuario" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/background_edit_text"
+            android:padding="15dp"
+            android:text="@string/txt_senha" />
+
+        <Button
+            android:id="@+id/btnEnter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="@color/btn_entrar"
+            android:padding="15dp"
+            android:text="@string/btn_login"
+            android:textSize="20sp"
+            app:cornerRadius="15dp" />
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="100dp"
+            android:padding="5sp"
+            android:text="@string/btn_cadastro"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+</ScrollView>

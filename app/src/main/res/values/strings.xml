@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Backlog Games</string>
+    <string name="txt_tela_login">Backlog Jogos</string>
+    <string name="txt_usuario">Usuário</string>
+    <string name="txt_senha">Senha</string>
+    <string name="btn_login">Entrar</string>
+    <string name="btn_cadastro">Cadastrar</string>
+</resources>
